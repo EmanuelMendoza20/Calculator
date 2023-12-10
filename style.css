@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: #8D8987;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.calculadora{
+    background: #000;
+    color: white;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.55);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: .5rem;
+    gap: 2px;
+}
+
+.pantalla{
+    grid-column: 1/5;
+    background-color: #000;
+    text-align: end;
+}
+.resultado-operacion{
+    font-size: 52px;
+    font-weight: 800
+}
+.operandos{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 800
+}
+
+.contextual-menu{
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    grid-column: 1/-1;
+    justify-content: end;
+}
+
+.boton-contexual{
+    height: 8px;
+    width: 8px;
+    border-radius: 90px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.marca{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #414141;
+}
+
+.btn{
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    padding: 35px;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: #0b0b0b;
+    transition: .3s ease-out;
+}
+
+#igual{
+    background: #FF513C;
+    width: auto%;
+    transition: .3s ease;
+}
+
+#igual:hover{
+    box-shadow: 0 0 10px 0 #FF513C inset, 0 0 20px 2px rgb(255, 81, 60, .4);
+}
+
+.caracter-especial{
+    font-size: 14px;
+    color: #707070;
+}
+
+#dividir{
+    color: #707070;
+}
+
+#multiplicar{
+    color: #707070;
+}
+
+#restar{
+   color: #707070;
+}
+
+#sumar{
+    color: #707070;
+}
+
+#porcentaje{
+    color: #707070;
+    font-size: 18px;
+}
+
+.firma{
+    margin-top: 16px;
+    color: #414141;
+    grid-column: 1/5;
+    text-align: center;
+};

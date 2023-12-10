@@ -7,34 +7,51 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Calculadora</h1>
-    <div id="appBg">
-        <form name="calculator">
-            <input type="textfiel" name="ans" value="" autocomplete="off" readonly>
-            <br>
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="÷">
-            <br>
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="x">
-            <br>
-            <input type="button" value="3">
-            <input type="button" value="2">
-            <input type="button" value="1">
-            <input type="button" value="-">
-            <br>
-            <input type="button" value="0">
-            <input type="button" value=".">
-            <input type="button" value="DEL">
-            <input type="button" value="=">
+    <div class="calculadora">
+        <!-- <div class="contextual-menu">
+            <div class="boton-contexual"></div>
+            <div class="boton-contexual"></div>
+            <div class="boton-contexual"></div>
+        </div> -->
+        <div class="marca">Calculator</div>
+        <div class="pantalla">
+            <div data-operand-1 class="operandos">0</div>
+            <div data-operand-2      class="resultado-operacion">0</div>
+        </div>
 
+        <!-- Botones -->
+        <button data-all-clear class="btn caracter-especial">AC</button>
+        <button data-delete id="borrar" class="btn caracter-especial">DEL</button>
+        <button data-operation id="porcentaje" class="btn">%</button>
+        <button data-operation id="dividir" class="btn">÷</button>
+        
+        <button data-number class="btn">7</button>
+        <button data-number class="btn">8</button>
+        <button data-number class="btn">9</button>
+        <button data-operation id="multiplicar" class="btn">×</button>
 
+        <button data-number class="btn">4</button>
+        <button data-number class="btn">5</button>
+        <button data-number class="btn">6</button>
+        <button data-operation id="restar" class="btn">-</button>
+        
+        <button data-number class="btn">1</button>
+        <button data-number class="btn">2</button>
+        <button data-number class="btn">3</button>
+        <button data-operation id="sumar" class="btn">+</button>
 
-        </form>
+        <button data-number class="btn">00</button>
+        <button data-number class="btn">0</button>
+        <button data-number class="btn">.</button>
+        
+        
+
+        <button data-equals id="igual" class="btn">=</button>
+
+        <div class="marca firma">Made with ❤️ by Emanuel Mendoza</div>
+
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
