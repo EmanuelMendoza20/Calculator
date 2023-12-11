@@ -1,6 +1,6 @@
 # Calculator App
 
-![Captura de Pantalla 1](/img/calculator-image-preview)
+![Captura de Pantalla 1](./img/calculator-image-preview)
 
 Este proyecto es una calculadora web simple construida con HTML, CSS y JavaScript. La calculadora es capaz de realizar operaciones básicas como suma, resta, multiplicación, división y cálculos de porcentaje.
 
@@ -13,7 +13,7 @@ Este proyecto es una calculadora web simple construida con HTML, CSS y JavaScrip
 
 ## Uso
 
-1. Clona el repositorio: `git clone https://github.com/TuUsuario/Calculadora.git`
+1. Clona el repositorio: `git clone https://github.com/EmanuelMendoza20/Calculator.git`
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Créditos
