@@ -52,6 +52,21 @@
 
     </div>
 
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".calculadora"), {
+		max: 10,
+		speed: 200,
+        glare: true,
+        "max-glare": 0.2,
+        reset: true,
+        scale: 1.1,
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+
     <script src="./script.js"></script>
 </body>
 </html>

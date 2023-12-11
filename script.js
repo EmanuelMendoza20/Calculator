@@ -18,8 +18,16 @@ class Calculator{
 
     //Actualiza mi pantalla
     updateUI(){
+        const maxLength = 9;
+
+        let operand2Display = this.operand2.toString();
+
+        if(operand2Display.length > maxLength){
+            operand2Display = operand2Display.slice(0, maxLength);
+        }
+
         this.operand1Element.innerHTML = this.operand1 + this.operator;
-        this.operand2Element.innerHTML = this.operand2;
+        this.operand2Element.innerHTML = operand2Display;
     }
 
     appendNumber(number){
