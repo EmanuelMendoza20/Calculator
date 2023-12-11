@@ -1,6 +1,6 @@
 # Calculator App
 
-![Captura de Pantalla 1](./img/calculator-image-preview)
+![Captura de Pantalla 1](img/calculator-image-preview.png)
 
 Este proyecto es una calculadora web simple construida con HTML, CSS y JavaScript. La calculadora es capaz de realizar operaciones básicas como suma, resta, multiplicación, división y cálculos de porcentaje.
 
