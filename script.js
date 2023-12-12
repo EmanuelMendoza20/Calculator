@@ -120,5 +120,5 @@ operationButton.forEach(button =>{
 
 equalsButton.addEventListener('click', () =>{
     calculator.calc();
-    calculator.verificarEasterEgg();
+    //calculator.verificarEasterEgg();
 }) 
